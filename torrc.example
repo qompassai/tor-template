@@ -1,0 +1,8 @@
+# torrc.example — Tor client config starter.
+# Docs: https://support.torproject.org/ and `man tor`.
+# Copy to /etc/tor/torrc (or Tor Browser's torrc) and adjust.
+SocksPort 9050
+ControlPort 9051
+# CookieAuthentication 1   # uncomment to talk to the control port
+# ExitNodes {us}          # uncomment to pin exit country
+# StrictNodes 1
